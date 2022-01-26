@@ -1,0 +1,301 @@
+*{
+    margin: 0; 
+    padding: 0;
+}
+h2{
+    font-weight: 400;
+    font-size: 22px;
+    color: #000;
+}
+body{
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.56);
+    line-height: 200%;
+}
+li{
+    list-style-type: none;
+}
+a{
+    color: #000;
+    text-decoration: none;
+}
+.app-view-wrapper{
+    position: relative;
+}
+.nav{
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 1000px;
+    width: 30%;
+}
+.container{
+    overflow: hidden;
+    height: 100%;
+    box-shadow: 0 0 4px rgb(0 0 0 / 30%) !important;
+}
+header{
+    box-shadow: 0 0 4px rgb(0 0 0 / 12%);
+    .header{
+        position: relative;
+        display: flex;
+        align-items: center;
+        .logo{
+            margin: 20px;
+            img{
+               width: 36px; 
+            }
+        }
+        .primar{
+            font-size: 16px;
+            flood-color: #333;
+            transform: translateY(-10%);
+            font-weight: 700;
+            ul{
+                padding-inline-start: 0px;
+                display: flex;
+                li{
+                    margin-right: 16px;
+                    a{
+                        color: #000;
+                    }
+                }
+            }
+        }
+        .icon{
+            position: fixed;
+            left: 26%;
+            transform: translateY(-5%);
+          }
+    }
+}
+.body{  
+    padding: 0 24px 0 98px;
+    color: #000;
+    transform: translateY(240px);
+    font-size: 24px;
+    .account-entry{
+        .con{
+            font-weight: 700;
+        }
+    }
+    .footer{
+        display: flex;
+        align-items: center;
+        font-size: 14px;
+        margin-top: 24px;
+
+        .log{
+            margin-right: 18px;
+            align-items: center;
+            display: flex;
+            color: #00A862;
+            img{
+                margin-right: 5px;
+            }
+        }
+        .register{
+                padding: 2px 12px;
+                display: block;
+                border: 1px solid #00A862;
+                border-radius: 48px ;
+                color: #00A862;
+                span{
+                    line-height: 160%;
+                }
+        }
+    }
+}
+.right{
+    position: relative;
+    margin-left: 30%;
+    left: auto;
+    width: 70%;
+    .tag_ad{
+        font-size: 12px;
+        padding: 0 6px;
+        color: #fff;
+        opacity: .6;
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        line-height: 160%;
+    }
+    .hero{
+        width: 100%;
+        a{
+            width: 100%;
+            img{
+                width: 100%;
+            }
+        }
+    }
+    .grid{
+        padding: 0 24px;
+        background-color: rgb(241, 241, 241);
+        a{
+            width: 29.4%;
+            display: inline-block;
+            overflow: hidden;
+            padding: 12px;
+            img{
+                box-shadow: 0 1px 1px 1px rgb(0 0 0 / 12%);
+                float: left;
+                width: 100%;
+            }
+        }
+    }
+}
+.wrapper{
+    display: flex;
+    padding-top: 36px;
+    padding-bottom: 36px;
+    align-items: center;
+    position: relative;
+    .aa{
+        margin-left: 100px;
+        width: 50%;
+        font-weight: 400;
+        line-height: 200%;
+        h2{
+            color: #000;
+            font-weight: 400;
+            font-size: 22px;
+            margin-bottom: 24px;
+        }
+        .light{
+            font-size: 16px;
+            margin-bottom: 24px;
+            a{
+                padding: 0 5px;
+                color: #C2A661;
+            }
+        }
+    }
+    .img{
+        position: absolute;
+        right: 5%;
+        top:50%;
+        transform: translateY(-50%);
+    }
+}
+.flex{
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    a{
+        margin-right: 8px;
+        border: solid 1px #00A862;
+        color: #00A862;
+        padding: 2px 18px;
+        display: block;
+        border-radius: 48px;
+    }
+}
+.selected{
+    text-align: center;
+    background-color: rgb(241, 241, 241);
+    .selected-wraper{
+        padding: 24px 36px;
+        margin: 0 5%;
+    }
+    h2{
+        margin-bottom: 20px;
+        color: #000;
+    }
+    p{
+        font-size: 16px;
+        padding-bottom: 50px;
+    }
+    .ul-card{
+        display: flex;
+        width: 100%;
+        flex-wrap: 1;
+        li{
+            max-width: 227px;
+            padding: 12px !important;
+            width: 25%;
+            a{
+                position: relative;
+                padding:0 6px;
+
+                display: block;
+                border-radius: 2px;
+                box-shadow: 0 1px 1px 1px rgb(0 0 0 / 12%);
+                img{
+                    position: absolute;
+                    top: -35px;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    height: 72px;
+                }
+                .title{
+                    padding-top: 50px;
+                    padding-bottom: 16px !important;
+                }
+                .con{
+                    font-size: 14px;
+                    color: rgba(0, 0, 0, 0.56) !important;
+                    padding-bottom: 12px;
+                }
+                .caption{
+                    font-size: 12px;
+                    color: #C2A661;
+                    opacity: .6;
+                    padding-bottom: 20px;
+                }
+
+            }
+        }
+    }
+}
+.coffeehouse{
+    padding: 36px 0;
+
+    .center{
+        text-align: center;
+        h2{
+            margin-bottom: 24px;
+        }
+        p{
+            margin-bottom: 24px;
+        }
+    }
+}
+.scroll-wrapper{
+    margin: 0 100px;
+    .scroll{
+        .scroll-item{
+            display: flex;
+            overflow-x: auto;
+            margin-bottom: 5px;
+            a{
+                position: relative;
+                box-shadow: 0 1px 1px 1px rgb(0 0 0 / 12%);
+                display: block;
+                width: 254px;
+                margin-right: 10px;
+                .preview{
+                    border-radius: 5px;
+                    img{
+                        height: 168px;
+                    }
+                    span{
+                        background-color: #C2A661;
+                        color: #fff;
+                        top: 0;
+                        display: block;
+                        position: absolute;
+                        text-align: left;
+                    }
+                    strong{
+                        display: block;
+                        font-weight: normal;
+                        padding:6px 4px;
+                    }
+                }
+            }
+
+        }
+    }
+}
